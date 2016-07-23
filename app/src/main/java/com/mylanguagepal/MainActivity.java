@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         // Show default fragment
-        showFragment(navigationView.getMenu().findItem(R.id.menu_item_dashboard));
+        showFragment(navigationView.getMenu().findItem(R.id.menu_item_tags));
     }
 
     @Override
